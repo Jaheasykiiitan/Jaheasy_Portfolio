@@ -32,6 +32,9 @@ export async function generateMetadata(): Promise<Metadata> {
     metadataBase: new URL(SITE_URL),
     title: { default: title, template: `%s — ${site.name}` },
     description,
+    verification: {
+      google: "2ChfMfVfO6Oqz1_Zy3W7Su0LuyLQ8zfhbAf0Y-lnxvE",
+    },
     alternates: { canonical: "/" },
     keywords: [
       "filmmaker",

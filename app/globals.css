@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cine-black: #070707;
+  --color-cine-bg: #0b0b0b;
+  --color-cine-panel: #101010;
+  --color-cine-panel-2: #141414;
+  --color-paper: #ede9e1;
+  --color-haze: #a5a19a;
+  --color-dim: #716d66;
+  --color-line: rgba(237, 233, 225, 0.12);
+  --color-line-soft: rgba(237, 233, 225, 0.06);
+  --color-accent: #c9a24b;
+
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-cormorant), Georgia, "Times New Roman", serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  background-color: var(--color-cine-black);
+  color: var(--color-paper);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-paper);
+  color: var(--color-cine-black);
+}
+
+:focus-visible {
+  outline: 1px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+/* ---------- Film grain overlay ---------- */
+.grain-layer {
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 240px 240px;
+  animation: grain-shift 1.2s steps(4) infinite;
+}
+
+@keyframes grain-shift {
+  0% { background-position: 0 0; }
+  25% { background-position: -60px 40px; }
+  50% { background-position: 40px -60px; }
+  75% { background-position: -40px -20px; }
+  100% { background-position: 20px 50px; }
+}
+
+/* ---------- Cinematic vignette ---------- */
+.vignette {
+  background: radial-gradient(
+    120% 90% at 50% 42%,
+    transparent 52%,
+    rgba(0, 0, 0, 0.55) 100%
+  );
+}
+
+/* ---------- Marquee ---------- */
+.marquee {
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 8%,
+    black 92%,
+    transparent
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 8%,
+    black 92%,
+    transparent
+  );
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 46s linear infinite;
+  will-change: transform;
+}
+
+.marquee:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-scroll {
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(-50%, 0, 0); }
+}
+
+@keyframes scrollcue {
+  0% { transform: translateY(-100%); }
+  55% { transform: translateY(150%); }
+  100% { transform: translateY(150%); }
+}
+
+/* ---------- Oversized ghost type ---------- */
+.ghost-type {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(237, 233, 225, 0.08);
+}
+
+/* ---------- Focus + comp actions ---------- */
+.cta-line:not(:focus-visible) {
+  outline: none;
+}
+
+/* ---------- Motion preferences: kill decorative motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .grain-layer {
+    animation: none;
+  }
+  .marquee-track {
+    animation: none;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

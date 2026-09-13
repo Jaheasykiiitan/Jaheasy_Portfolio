@@ -1,0 +1,221 @@
+{
+  "site": {
+    "name": "JAHEASY",
+    "roles": [
+      "Filmmaker",
+      "Cinematographer",
+      "Video Editor"
+    ],
+    "tagline": "I turn ideas into visual stories.",
+    "quote": "Every frame is a decision, Every cut is a story. I make them count.",
+    "email": "jaheasykiiitan@gmail.com",
+    "emailSubject": "Let's work",
+    "availability": "+2348074505051",
+    "address": "Crafted frame by frame",
+    "showreel": {
+      "title": "JAHEASY — Showreel 2026",
+      "runtime": "03:29",
+      "video": "https://pub-1a11bdc5fe184fac9414b66d9a8ccf3b.r2.dev/J/Portfolio%20videos/MY%20PORTFOLIO%20SHOWREEL-1.mp4",
+      "poster": "https://pub-1a11bdc5fe184fac9414b66d9a8ccf3b.r2.dev/J/Portfolio%20videos/MY%20PORTFOLIO%20SHOWREEL-1.mp4"
+    },
+    "heroMedia": {
+      "video": "https://pub-1a11bdc5fe184fac9414b66d9a8ccf3b.r2.dev/J/Portfolio%20videos/MY%20PORTFOLIO%20SHOWREEL%202.mp4",
+      "poster": "https://pub-1a11bdc5fe184fac9414b66d9a8ccf3b.r2.dev/J/Thumbnails/My%20Bts%201.png"
+    },
+    "aboutFrame": {
+      "poster": "https://pub-1a11bdc5fe184fac9414b66d9a8ccf3b.r2.dev/J/MY%20PICTURE.jpeg",
+      "caption": "Jaheasy Kiiitan — Cinematographer, Editor."
+    }
+  },
+  "navLinks": [
+    {
+      "label": "Showreel",
+      "href": "#showreel"
+    },
+    {
+      "label": "Work",
+      "href": "#work"
+    },
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Services",
+      "href": "#services"
+    },
+    {
+      "label": "Process",
+      "href": "#process"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
+  ],
+  "heroBackdrop": {
+    "eyebrow": "Jaheasy Kiiitan Film Studio — Portfolio MMXXVI",
+    "subline": "FILMMAKER · CINEMATOGRAPHER · VIDEO EDITOR"
+  },
+  "marqueeItems": [
+    "Films",
+    "Cinematography",
+    "YouTube",
+    "Commercials",
+    "Social Content",
+    "AI Videos",
+    "Editing",
+    "Color Grading",
+    "Sound Design"
+  ],
+  "aboutText": [
+    "I'm a Filmmaker, Cinematographer, and Video Editor with over three years of experience transforming ideas and raw footage into compelling visual stories.",
+    "My work spans films, YouTube content, social media, branded projects, AI-generated videos, and creative productions.",
+    "I combine cinematography, editing, sound design, color grading, and storytelling to create videos that are visually polished, emotionally engaging, and purposeful."
+  ],
+  "stats": [
+    {
+      "value": "3+",
+      "label": "Years in the edit bay"
+    },
+    {
+      "value": "6",
+      "label": "Disciplines under one roof"
+    },
+    {
+      "value": "30+",
+      "label": "Stories finished & shipped"
+    },
+    {
+      "value": "5",
+      "label": "Platforms, one standard"
+    }
+  ],
+  "services": [
+    {
+      "index": "01",
+      "title": "Film & Video Editing",
+      "description": "Structural cutting, rhythm and performance — edits that build tension, land jokes and break hearts."
+    },
+    {
+      "index": "02",
+      "title": "Cinematography",
+      "description": "Light, framing and camera language crafted shot by shot until every frame pushes the story forward."
+    },
+    {
+      "index": "03",
+      "title": "YouTube Video Editing",
+      "description": "Retention-first pacing, hook-first opens, b-roll, sound design and clean motion graphics built for the algorithm."
+    },
+    {
+      "index": "04",
+      "title": "Social Media Content",
+      "description": "Vertical edits tuned for short attention spans — hooks in the first second, rhythm that stops the scroll."
+    },
+    {
+      "index": "05",
+      "title": "Color Grading",
+      "description": "Cinematic palettes and natural skin tones — from clean dailies to a single, finished look."
+    },
+    {
+      "index": "06",
+      "title": "Sound Design",
+      "description": "Ambience, foley and mix that make the image breathe and the room feel real."
+    },
+    {
+      "index": "07",
+      "title": "AI Video Production",
+      "description": "Concept to output with today's generative tools — blended with real footage so it never looks synthetic."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Adobe Premiere Pro",
+      "note": "Primary NLE — every cut lives here"
+    },
+    {
+      "name": "DaVinci Resolve",
+      "note": "Color & finishing — the final grade"
+    },
+    {
+      "name": "CapCut",
+      "note": "Short-form speed — reels, clips, hooks"
+    },
+    {
+      "name": "Filmora",
+      "note": "Lightweight edits — fast and portable"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Production Houses & Studios",
+      "summary": "Post-production and finishing on branded films, music videos and series for studios and production houses."
+    },
+    {
+      "title": "Content Creators",
+      "summary": "Edits, thumbnails and channel strategy for creators scaling on YouTube and beyond."
+    },
+    {
+      "title": "Independent Films",
+      "summary": "Cinematography and post-production on festival-bound shorts and passion projects."
+    },
+    {
+      "title": "Brands & Agencies",
+      "summary": "Commercial cuts, color and sound designed to land a message in thirty seconds or less."
+    }
+  ],
+  "process": [
+    {
+      "index": "01",
+      "title": "Discover",
+      "description": "We talk story, goals and reference. I find the angle before a single frame is shot."
+    },
+    {
+      "index": "02",
+      "title": "Create",
+      "description": "Shooting or sourcing — raw material captured with intent, not left to chance."
+    },
+    {
+      "index": "03",
+      "title": "Edit",
+      "description": "From the assembly, to the firstcut, and to the finalcut, there's rhythm, structure and narrative assembled in the timeline."
+    },
+    {
+      "index": "04",
+      "title": "Refine",
+      "description": "Color, sound, graphics and polish — every frame pulled toward the story."
+    },
+    {
+      "index": "05",
+      "title": "Deliver",
+      "description": "Formats, masters and specs for every platform — shipped and ready to publish."
+    }
+  ],
+  "socials": [
+    {
+      "label": "YouTube",
+      "handle": "@cinebyjaheasy",
+      "url": "https://youtube.com/@cinebyjaheasy"
+    },
+    {
+      "label": "Instagram",
+      "handle": "@jaheasykiiitan",
+      "url": "https://instagram.com/jaheasykiiitan"
+    },
+    {
+      "label": "X / Twitter",
+      "handle": "@jaheasykiiitan",
+      "url": "https://x.com/jaheasykiiitan"
+    },
+    {
+      "label": "LinkedIn",
+      "handle": "jaheasykiiitan",
+      "url": "https://linkedin.com/in/jaheasykiiitan"
+    },
+    {
+      "label": "WhatsApp",
+      "handle": "@jaheasykiiitan",
+      "url": "https://wa.me/+2348074505051"
+    }
+  ]
+}
